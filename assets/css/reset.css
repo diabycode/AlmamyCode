@@ -1,0 +1,89 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+*, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #1B2124;
+}
+body {
+    background-color: #E4F1EB;
+}
+.hidden {
+    display: none;
+}
+::-moz-selection {
+    color: #1B2124;
+    background: #EA9C04;
+}
+::selection {
+    color: #1B2124;
+    background: #EA9C04;
+}
+main {
+    overflow: hidden;
+    position: relative;
+}
+main > svg {
+    position: fixed;
+    right: 2rem;
+    bottom: 1.5rem;
+    cursor: pointer;
+    width: 5vw;
+    height: auto;
+    min-width: 40px;
+}
+section {
+    padding: 3rem 2rem;
+}
+.section-name span{
+    padding: 10px 15px;
+    background-color: #D1DFD9;
+    color: #E4F1EB;
+    display: inline-block;
+}
+.section-name {
+    margin-bottom: 1.9rem;
+}
+section h3 {
+    margin-bottom: 1.2rem;
+    font-size: 1.875rem;
+}
+section.dark {
+    background-color: #1B2124;
+}
+section.dark * {
+    color: #E4F1EB;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 50px 0px;
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+
+/* responsive */
+@media screen and (max-width: 1000px) {
+    section h3 {
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    section {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section h3 {
+        font-size: 1.5rem;
+    }
+}

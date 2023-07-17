@@ -1,0 +1,42 @@
+.services > .section-name {
+    text-align: right;
+}
+.services > .section-name span {
+    background-color: #2E373C;
+    color: #1B2124;
+}
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    gap: 10px;
+}
+.services-items div svg{
+    margin-bottom: .7rem;
+}
+.services-items div h4 {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+}
+.services-items div p {
+    color: #EA9C04;
+    font-size: 0.75rem;
+
+}
+.services-items div {
+    width: calc(100%/4);
+    min-width: 185px;
+    padding: .9rem;
+    cursor: pointer;
+    transition: transform .1s ease;
+}
+.services-items div:hover {
+    transform: scale(1.1);
+}
+.services .section-content > p {
+    margin-bottom: 2.5rem;
+}
+
+

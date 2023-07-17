@@ -1,0 +1,90 @@
+
+
+/* .about .contacts > div:last-child {
+    border-right: none;
+} */
+.about .contacts > div{
+    /* border-right: 2px solid #EA9C04; */
+    /* margin-right: .5rem; */
+    padding: 0px .5rem;
+}
+.about .contacts > div h3 {
+    margin-bottom: .7rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.about .contacts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.skills .skills-items {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    gap: 10px;
+}
+.skills .skills-items div svg, .skills .skills-items div h4{
+    margin-bottom: .7rem;
+}
+.skills .skills-items div:hover {
+    background-color: #EA9C04;
+}
+.skills .skills-items div {
+    background-color: #161B1E;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.skills > h3 {
+    font-weight: 700;
+    margin-bottom: .7rem;
+    font-size: 1.875rem;
+}
+.skills > p {
+    margin-bottom: 2.5rem;
+}
+.docs-downloader {
+    margin-top: 4rem;
+
+}
+.docs-downloader h3 {
+    font-weight: 400;
+    margin-bottom: .7rem;
+}
+.docs-downloader a:first-child{
+    margin-right: 10px;
+}
+.docs-downloader a:last-child {
+    color: #EA9C04;
+}
+.docs-downloader a:hover{
+    text-decoration: none;
+}   
+
+
+@media screen and (max-width: 1000px) {
+    .skills > h3 {
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    .skills > h3 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .about .contacts {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .skills .skills-items {
+        flex-direction: column;
+    }
+}
